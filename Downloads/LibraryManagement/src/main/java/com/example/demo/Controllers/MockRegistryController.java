@@ -13,10 +13,9 @@ import java.util.Map;
 public class MockRegistryController {
 
     @GetMapping("/covers/{isbn}")
-    public Map<String, String> getCover(@PathVariable String isbn) {
-        Map<String, String> map = new HashMap<>();
-        map.put("imageUrl", "https://cdn.registry.com/covers/" + isbn + ".jpg");
-        return map;
+    public String getCover(@PathVariable String isbn) {
+        return  "https://cdn.registry.com/covers/" + isbn + ".jpg";
+
     }
 }
 

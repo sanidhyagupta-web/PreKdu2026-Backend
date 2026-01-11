@@ -1,7 +1,5 @@
 package com.example.demo.Service;
 
-import com.example.demo.Models.BookCoverResponse;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.retry.annotation.Backoff;
 import org.springframework.retry.annotation.Recover;
 import org.springframework.retry.annotation.Retryable;
@@ -23,9 +21,7 @@ public class BookCoverClient {
 
         String url = "http://localhost:8081/mock/covers/" + isbn;
 
-        BookCoverResponse response = restTemplate.getForObject(url, BookCoverResponse.class);
-
-        return response.getImageUrl();
+        return url;
     }
 
     @Recover

@@ -29,4 +29,5 @@ public class Book {
 
     private String ImageCoverURL;
 
+    private String status;
 }
