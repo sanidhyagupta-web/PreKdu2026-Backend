@@ -1,0 +1,24 @@
+2026-01-13 13:18:13 [main] INFO  c.H.Application.HospitalApplication - Starting HospitalApplication using Java 21.0.7 with PID 4476 (/Users/sanidhyagupta/Downloads/HospitalApplication/target/classes started by sanidhyagupta in /Users/sanidhyagupta/Downloads/HospitalApplication)
+2026-01-13 13:18:13 [main] INFO  c.H.Application.HospitalApplication - No active profile set, falling back to 1 default profile: "default"
+2026-01-13 13:18:13 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-01-13 13:18:13 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-01-13 13:18:13 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-13 13:18:13 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-13 13:18:13 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 280 ms
+2026-01-13 13:18:13 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-01-13 13:18:13 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-01-13 13:18:13 [main] INFO  c.H.Application.HospitalApplication - Started HospitalApplication in 0.573 seconds (process running for 0.755)
+2026-01-13 13:18:40 [SpringApplicationShutdownHook] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-13 13:18:40 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-01-13 13:19:26 [main] INFO  c.H.Application.HospitalApplication - Starting HospitalApplication using Java 21.0.7 with PID 4884 (/Users/sanidhyagupta/Downloads/HospitalApplication/target/classes started by sanidhyagupta in /Users/sanidhyagupta/Downloads/HospitalApplication)
+2026-01-13 13:19:26 [main] INFO  c.H.Application.HospitalApplication - No active profile set, falling back to 1 default profile: "default"
+2026-01-13 13:19:27 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-01-13 13:19:27 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-01-13 13:19:27 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-13 13:19:27 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-13 13:19:27 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 329 ms
+2026-01-13 13:19:27 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-01-13 13:19:27 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-01-13 13:19:27 [main] INFO  c.H.Application.HospitalApplication - Started HospitalApplication in 0.731 seconds (process running for 0.937)
+2026-01-13 13:19:38 [SpringApplicationShutdownHook] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-13 13:19:38 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
